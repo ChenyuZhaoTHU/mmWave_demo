@@ -1,4 +1,4 @@
-# AWR1843 Read Data (Python 3)
+# IWR1843 Read Data (Python 3)
 
 Python program to read and plot the data in real time from the **AWR1843** mmWave radar board (Texas Instruments, MMWAVE SDK 3). The program has been tested with Windows and Raspberry Pi and is based on the Matlab demo from Texas Instruments.
 
@@ -11,6 +11,7 @@ Although it works correctly, the program is still in development, so if you have
 * **serial**: To read the serial data from the radar.
 * **time**: To wait until more data is generated.
 * **pyqtgraph**: For the scatter plot showing the 2D position of the reflected points.
+* **pyqt5**
 
 ## Program Functions
 * **serialConfig()**: Configures the serial ports and sends the CLI commands to the radar. It outputs the serial objects for the data and CLI ports.
