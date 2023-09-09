@@ -26,3 +26,6 @@ Although it works correctly, the program is still in development, so if you have
 * If **not all the antennas** are being used, then change the value of **numRxAnt** and **numTxAnt**.
 * Run the program.
 * The data of each frame with the position and velocities of the reflected points is stored in the **detObj** dictionary. Each frame data is stored in the **frameData** dictionary array.
+
+## Tested functions
+* readData_IWR1843.py
